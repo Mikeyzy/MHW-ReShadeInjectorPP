@@ -72,7 +72,11 @@ int main(){
 	cout << "Injector Started!" << endl;
 	Sleep(1000);
 	cout << "Starting MHW..." << endl;
+#ifdef _NON_STEAM
+	system(pMhwExe.string().c_str());
+#else
 	system(MHW_STEAM_CMD);
+#endif
 	Sleep(50);
 	return 0;
 }

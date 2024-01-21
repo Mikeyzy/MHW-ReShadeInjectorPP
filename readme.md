@@ -10,10 +10,13 @@ The main difference between this and keegars' tool are listed below:
 To setup, go to reshade's website (https://reshade.me) and download reshade, then select MHW and DX12.
 After installed the presets and shader packs, copy the content of this tool into MHW's root folder.
 there are 3 files in total:  
-	MHW-ReShadeInjector++.exe  
+	MHW-ReShadeInjector++.exe (MHW-ReShadeInjectorD++.exe)  
 	inject.exe  
 	uninstall_MHW-ReShadeInjector.bat  
-Run 'MHW-ReShadeInjector++.exe' to start MHW with ReShade.  
+For Steam users:  
+	Run 'MHW-ReShadeInjector++.exe' to start MHW with ReShade.  
+For Non-Steam users:  
+	Run 'MHW-ReShadeInjectorD++.exe' to start MHW with ReShade.  
 When ReShade is first installed or updated, running this tool will auto update the file before start the injector.
 
 To uninstall, just run uninstall_MHW-ReShadeInjector.bat to remove this tool.
